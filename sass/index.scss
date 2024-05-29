@@ -1,0 +1,73 @@
+$color-text: #15f;
+
+
+header{ 
+    width: 100%;
+}
+.body-index{
+   background: url("../img/Steph-fondo.jpg") top / cover ;
+}
+
+
+.nav{
+    background-color: #fff;
+    width: 80%;
+    height: 80px;
+    margin: 1rem auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 100px;
+    align-items: center;
+    box-shadow: 3px 0 30px 3px #000;
+    .ul-nav{
+        display: flex;
+        list-style: none;
+        margin-right: 2rem;
+        font-size: 1.2rem;
+        font-family: "text";
+        
+        li{
+            padding: 0 1rem;
+            &:hover{
+                transform: scale(1.2);
+                transition: all .2s;
+                font-family: "subtitle";
+                color: $color-text;
+            }
+            a{
+                color: $color-text;
+                text-decoration: none;
+
+            }
+        }
+    }
+    .img-container{
+        margin-left: 1rem;
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        text-align: center;
+        img{
+            width: 60px;
+        }
+    }
+}
+
+// section
+.section1{
+    width: 50%;
+    .text-container{
+       text-align: center;
+       color: #fff;
+       padding: 3rem;
+       .tittle{
+        font-family: "title";
+        font-size: 2.7rem;
+       }
+       .text{
+        font-family: "text";
+        font-size: 1.2rem;
+       }
+    }
+}
