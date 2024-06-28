@@ -1,0 +1,93 @@
+.back-inicio{
+    background-color: #009;
+    box-sizing: border-box;
+}
+
+.title-container{
+    margin: 60px;
+    margin-left: 200px;
+    font-size: 1.5rem;
+    font-family: "title";
+    text-transform: uppercase;
+    h1{
+        color: #fff;
+    }
+}
+
+// contenedor de los dos divs
+.section__main{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+// --------------------------
+
+.section__item-img{
+    position: relative;
+    background: url("../img/Warriors-campeones.jpg") center / cover;
+    width: 800px;
+    .item-img-p{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 12px 0;
+        padding-top: 40px;
+        text-align: center;
+        background: linear-gradient(to top, #000, #000a, transparent);
+        color: #fff;
+        font-family: "subtitle";
+        font-size: 1.2em;
+        .item-img-button{
+            font-family: "text";
+            margin-top: 5px;
+            padding: 10px 30px;
+            background-color: #05f;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            transition: background-color 0.2s;
+            &:hover{
+                background-color: #07f;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.section__item-prod{
+    position: relative;
+    display: flex;
+    max-width: 400px;
+    border-radius: 10px;
+    .button-container{
+        font-family: "subtitle";
+        font-size: 1.2em;
+        text-align: center;
+        position: absolute;
+        bottom: 4px;
+        width: 100%;
+        background: linear-gradient(to top, #000, #000a, transparent);
+        padding-top: 40px;
+        color: #fff;
+        border-radius: 5px;
+    }
+    .button{
+        font-family: "text";
+        margin: 5px;
+        margin-bottom: 12px;
+        padding: 10px 30px;
+        background-color: #05f;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        transition: background-color 0.2s;
+        &:hover{
+            background-color: #07f;
+            cursor: pointer;
+        }
+    }
+    img{
+        max-width: 100%;
+        border-radius: 5px;
+    }
+}
